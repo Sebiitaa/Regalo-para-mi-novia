@@ -1,0 +1,147 @@
+/* Estilo general para todas las páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden; /* Evitar barras de desplazamiento */
+}
+
+/* Estilo para la página principal */
+body.main-page {
+    background-color: pink;
+    background-image: url('fondo.png'); /* Imagen de fondo solo para la página principal */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Asegura que el título pueda posicionarse en la parte superior */
+}
+
+/* Estilo del título en la página principal */
+h1.main-title {
+    position: absolute; /* Posiciona el título en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    color: white; /* Color blanco */
+    font-size: 2.5rem; /* Tamaño del texto del título */
+    margin: 0; /* Sin margen */
+    z-index: 1; /* Asegura que el título esté por encima de otros elementos */
+}
+
+/* Estilo para la página secundaria */
+body.secondary-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink; /* Fondo rosado para la página secundaria */
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubrir el área del video */
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px; /* Ajusta este valor según sea necesario */
+}
+
+button {
+    background-color: #FF69B4; /* Color rosado */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0; /* Espacio entre los botones */
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* Estilo del título con imágenes decorativas */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; /* Tamaño del texto del título */
+    color: darkred;
+    margin: 20px 0; /* Espacio alrededor del título */
+}
+
+h1 img {
+    width: 30px; /* Tamaño de las imágenes decorativas */
+    height: auto;
+    margin: 0 10px; /* Espacio alrededor de las imágenes */
+}
+
+/* Estilo para el contenido de la página secundaria */
+.content {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 250, 240, 0.8); /* Fondo blanco semi-transparente para el contenido */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1; /* Asegura que el contenido esté por encima del video */
+    text-align: center; /* Centra el contenido */
+}
+
+/* Estilo para el texto en formato de imagen */
+.text-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el enlace de regreso */
+.back-link {
+    position: fixed; /* Fija el botón en una posición específica */
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+    color: #FF69B4; /* Color rosado para el enlace de regreso */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #FF69B4;
+    border-radius: 8px;
+    background-color: white; /* Fondo blanco para el botón */
+    z-index: 2; /* Asegura que el botón esté por encima del contenido */
+}
+
+.back-link:hover {
+    background-color: #FF69B4;
+    color: white;
+}
+
+/* Estilo para el video con controles */
+#video-content {
+    width: 80%; /* Ajusta el tamaño del video según sea necesario */
+    max-width: 600px; /* Tamaño máximo del video */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra para el video */
+    z-index: 2; /* Asegura que el video esté por encima del fondo */
+}
+
+
+
+
