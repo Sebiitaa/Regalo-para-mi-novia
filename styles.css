@@ -142,6 +142,26 @@ h1 img {
     z-index: 2; /* Asegura que el video esté por encima del fondo */
 }
 
+/* Estilo para el botón deshabilitado */
+.disabled-button {
+    background-color: #d3d3d3; /* Color de fondo gris */
+    color: #888; /* Color de texto gris oscuro */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0; /* Espacio entre los botones */
+    cursor: not-allowed; /* Cambia el cursor a "no permitido" */
+    border-radius: 12px;
+    opacity: 0.7; /* Hace que el botón sea un poco más transparente */
+}
+
+.disabled-button:hover {
+    background-color: #d3d3d3; /* Mantén el mismo color al pasar el cursor */
+    color: #888; /* Mantén el mismo color al pasar el cursor */
+}
+
 
 
 
