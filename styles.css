@@ -107,7 +107,7 @@ h1 img {
 
 /* Estilo para el texto en formato de imagen */
 .text-image {
-    max-width: 100%;
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen */
     height: auto;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -160,14 +160,6 @@ h1 img {
 .disabled-button:hover {
     background-color: #d3d3d3; /* Mantén el mismo color al pasar el cursor */
     color: #888; /* Mantén el mismo color al pasar el cursor */
-}
-
-/* Estilo para la imagen especial */
-.special-image {
-    max-width: 70%; /* Ajusta este tamaño según lo que consideres mejor */
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra para la imagen */
 }
 
 
