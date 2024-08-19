@@ -162,6 +162,13 @@ h1 img {
     color: #888; /* Mantén el mismo color al pasar el cursor */
 }
 
+/* Estilo para la imagen especial */
+.special-image {
+    max-width: 70%; /* Ajusta este tamaño según lo que consideres mejor */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra para la imagen */
+}
 
 
 
